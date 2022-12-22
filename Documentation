@@ -1,0 +1,26 @@
+Project Introduction: 
+For this project, we wanted to build a room quality calculator that would measure the temperature, the humidity and the light in a room for a certain period of time. 
+The users would only need to click on the button to start the process and click again to stop it. This project will be using temperature sensore and light sensor and store all the data in mongo. 
+As for our main Target audience, its mostly homeowners, real estate, construction, physical goods collectors, exotic pet owners. but it can be used by really anyone
+
+
+Hardware design: 
+
+Sensors used: Temperature sensor, Photocell Sensor
+
+MongoDB Schema design proposal: 
+
+Data structure (JSON): { "Temperature.C": "24", "Humidity": "Humid", "Sound": "Silent", "Light": "Dark", “Adequate”: false, “Date”: “12/11/2022 – 8:23” }
+
+API Endpoints There are multiple ways to send requests to the api.
+
+GET http://127.0.0.1:5001/sensors/450/temperatures Returns { "measurementCount": 1, "sensorId": 450 }
+
+http://127.0.0.1:5001/sensors/450/sounds Returns { "measurementCount": 1, "sensorId": 450 }
+
+POST
+
+IN NGROK http://8c91-69-17-239-181.ngrok.io/sensors/450/
+
+http://127.0.0.1:5001/sensors/450/ With params { "temperature": 100, "humidity": "humid", "brightness": "bright", "sound": "quiet" } Returns { "_id": "639f5be687205cb43680e5f7", "brightness": "bright", "humidity": "humid", "sensorId": 450, "sound": "quiet", "temperature": 100, "timestamp": "2022-12-18T13:28:54" }
+
