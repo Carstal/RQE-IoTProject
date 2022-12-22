@@ -8,21 +8,7 @@ Hardware design: image.png
 
 Sensors used: Temperature sensor, Photocell Sensor
 
-MongoDB Schema design proposal: 
-
-Data structure (JSON): { "temp": "24", "light":1 "Humi": 12, “time”: “12/11/2022 – 8:23” }
-
-API Endpoints There are multiple ways to send requests to the api.
-
-GET http://127.0.0.1:5001/sensors/450/temperatures Returns { "measurementCount": 1, "sensorId": 450 }
-
-http://127.0.0.1:5001/sensors/450/sounds Returns { "measurementCount": 1, "sensorId": 450 }
-
-POST
-
-IN NGROK http://8c91-69-17-239-181.ngrok.io/sensors/450/
-
-http://127.0.0.1:5001/sensors/450/ With params { "temperature": 100, "humidity": "humid", "brightness": "bright", "sound": "quiet" } Returns { "_id": "639f5be687205cb43680e5f7", "brightness": "bright", "humidity": "humid", "sensorId": 450, "sound": "quiet", "temperature": 100, "timestamp": "2022-12-18T13:28:54" }
+MongoDB Schema design proposal: image.png
 
 
 POST - /read
