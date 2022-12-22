@@ -28,6 +28,8 @@ http://127.0.0.1:5001/sensors/450/ With params { "temperature": 100, "humidity":
 POST - /read
 Description
 This method reads data from Arduino and send it to Mongo db. HTTP response status code
+{ "temp": "24", "light":1 "Humi": 12, “time”: “12/11/2022 – 8:23” }
+
 
 GET - /collection/<collection_id> Description
 This method reads the data from Mongo db. HTTP response status code
@@ -35,7 +37,6 @@ This method reads the data from Mongo db. HTTP response status code
 DELETE - /collection/<collection_id>
 Description
 This method deletes collection and all readings from collection in db. HTTP response status code
-{ "temp": "24", "light":1 "Humi": 12, “time”: “12/11/2022 – 8:23” }
 
   
 GET - /collection/<collection_id>/compare/<temp>/<humi>/<lumi> Description
