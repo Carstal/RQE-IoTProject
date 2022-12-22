@@ -35,6 +35,7 @@ This method reads the data from Mongo db. HTTP response status code
 DELETE - /collection/<collection_id>
 Description
 This method deletes collection and all readings from collection in db. HTTP response status code
+{ "temp": "24", "light":1 "Humi": 12, “time”: “12/11/2022 – 8:23” }
 
   
 GET - /collection/<collection_id>/compare/<temp>/<humi>/<lumi> Description
