@@ -4,13 +4,13 @@ The users would only need to click on the button to start the process and click 
 As for our main Target audience, its mostly homeowners, real estate, construction, physical goods collectors, exotic pet owners. but it can be used by really anyone
 
 
-Hardware design: 
+Hardware design: image.png
 
 Sensors used: Temperature sensor, Photocell Sensor
 
 MongoDB Schema design proposal: 
 
-Data structure (JSON): { "Temp": "24", "Light":1 "Humi": 12, “Date”: “12/11/2022 – 8:23” }
+Data structure (JSON): { "temp": "24", "light":1 "Humi": 12, “time”: “12/11/2022 – 8:23” }
 
 API Endpoints There are multiple ways to send requests to the api.
 
