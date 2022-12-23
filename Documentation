@@ -6,6 +6,10 @@ As for our main Target audience, its mostly homeowners, real estate, constructio
 
 Hardware design: image.png
 
+We used different hardware in the schematic due to the pin configuration not matching our 
+actual sensors, the corresponding sensors are next to the sensors on the board. The same is 
+applicable to our Arduino due to our specific board not being available on Fritzing
+
 Sensors used: Temperature sensor, Photocell Sensor
 
 MongoDB Schema design proposal: image.png
