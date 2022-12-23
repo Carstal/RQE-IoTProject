@@ -4,8 +4,8 @@ The users would only need to click on the button to start the process and click 
 As for our main Target audience, its mostly homeowners, real estate, construction, physical goods collectors, exotic pet owners. but it can be used by really anyone
 
 
-Hardware design: [InternetShortcut]
-URL=https://cdn.discordapp.com/attachments/1013902041518723102/1055671920814739506/Screenshot_2022-12-22_at_9.22.38_PM.png
+Hardware design:
+https://cdn.discordapp.com/attachments/1013902041518723102/1055671920814739506/Screenshot_2022-12-22_at_9.22.38_PM.png
 
 
 We used different hardware in the schematic due to the pin configuration not matching our 
@@ -15,11 +15,8 @@ applicable to our Arduino due to our specific board not being available on Fritz
 Sensors used: Temperature sensor, Photocell Sensor
 
 MongoDB Schema design proposal: 
-[InternetShortcut]
-URL=https://cdn.discordapp.com/attachments/1041004883530223627/1055970248630734878/image.png
-
-[InternetShortcut]
-URL=https://cdn.discordapp.com/attachments/1041004883530223627/1055970352867573800/image.png
+https://cdn.discordapp.com/attachments/1041004883530223627/1055970352867573800/image.png
+https://media.discordapp.net/attachments/1041004883530223627/1055970352867573800/image.png
 
 
 POST - /read
