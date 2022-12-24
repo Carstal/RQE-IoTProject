@@ -27,20 +27,23 @@ This method reads data from Arduino and send it to Mongo db. HTTP response statu
 
 GET - /collection/<collection_id> Description
 This method reads the data from Mongo db. HTTP response status code
+returns all records related to the collection
 
 DELETE - /collection/<collection_id>
 Description
 This method deletes collection and all readings from collection in db. HTTP response status code
-
+deletes the collection and all records associated
   
 GET - /collection/<collection_id>/compare/<temp>/<humi>/<lumi> Description
 This method compares data collection with inserted data.
+compare  the average values of the collection with the values provided
 
 POST - /collection/<collection_id>/compare/ Description
 This method compares data collection with JSON object. HTTP response status code
+compare  the average values of the collection with the values provided
 
 POST - /comparetest
 Description
 This method test by comparing data collection with JSON objects. HTTP response status code
-
+ ompare test is just a test for comparison
 
